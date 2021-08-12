@@ -12,12 +12,14 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="56dp"
         android:layout_marginTop="48dp"
+        android:background="@color/black"
+        android:backgroundTint="#000000"
         android:text="@string/btn_cal"
         android:textColor="#FFFFFF"
-        android:textColorHighlight="#673AB7"
-        app:iconTint="#E91E63"
+        app:iconTint="#E3E3E3"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/radioGroup" />
+        app:layout_constraintTop_toBottomOf="@+id/radioGroup"
+        app:rippleColor="#FFFFFF" />
 
     <ImageView
         android:id="@+id/imageView"
@@ -56,7 +58,8 @@
             android:id="@+id/rd_btn_C"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/rd_btn_C" />
+            android:text="@string/rd_btn_C"
+            android:textColor="#000000" />
 
         <RadioButton
             android:id="@+id/rd_btn_F"
@@ -72,6 +75,7 @@
         android:layout_marginStart="24dp"
         android:layout_marginEnd="45dp"
         android:textSize="24sp"
+        android:textStyle="bold"
         app:layout_constraintBaseline_toBaselineOf="@+id/btn_cal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
